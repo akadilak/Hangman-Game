@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Harry Potter Hangman</title>
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  </head>
+  <body>
+
+    <div class="main-container">
+      <section id="potter-panel">
+          <img id= "heading" src="assets/images/heading.png">
+          <audio id="music" controls>
+            <source src="assets/images/potterThemeSong.mp3">
+        </audio>
+      </section>
+      
+      <section id="hangman-panel">
+        <p>
+          PRESS ANY KEY TO GET STARTED
+        </p>
+        <p>
+          WINS!
+        </p>
+        <p id="win-count">
+        </p>
+        <p>
+          CURRENT WORD
+        </p>
+        <p id="word-placeholder">
+        </p>
+        <p>
+          NUMBER OF GUESSES REMAINING
+        </p>
+        <p id="guess-count">
+        </p>
+        <p>
+          LETTERS ALREADY GUESSED
+        </p>
+        <p id="letters-guessed">
+        </p>
+      </section>
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>    
+  </body>
+</html>
